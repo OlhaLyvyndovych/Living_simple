@@ -8,12 +8,12 @@ body {
 }
 
 @font-face {
-  font-family: Ubundtu-Bold;
+  font-family: Ubuntu-Bold;
   src: url('fonts/Ubuntu-Bold.ttf');
 }
 
 @font-face {
-  font-family: Ubundtu-Light;
+  font-family: Ubuntu-Light;
   src: url('fonts/Ubuntu-Light.ttf');
 }
 
