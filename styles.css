@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: Lora-Regular;
+  src: url('fonts/Lora-Regular.ttf');
+}
+
+@font-face {
+  font-family: Ubundtu-Bold;
+  src: url('fonts/Ubuntu-Bold.ttf');
+}
+
+@font-face {
+  font-family: Ubundtu-Light;
+  src: url('fonts/Ubuntu-Light.ttf');
+}
+
+.container {
+  height: 2450px;
+}
+
+.header {
+  height: 330px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.title {
+  width: 319px;
+  height: 55px;
+  margin-left: 123px;
+  margin-top: 47px;
+  display: block;
+  text-align: justify;
+}
+
+.heading {
+  font-family: Lora-Regular;
+  font-size: 33px;
+  letter-spacing: 0;
+  color: #143774;
+  margin: 0;
+  display: block;
+  text-align: justify;
+}
+
+.blog {
+  font-family: Ubuntu-Bold;
+  font-size: 12px;
+  letter-spacing: 2.3px;
+  align-content: stretch;
+  height: 13px;
+  color: #1792D2;
+  margin: 0;
+  display: block;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.nav {
+  width: 152px;
+  height: 126px;
+  text-align: center;
+  margin-top: 40.52px;
+  margin-left: 206px;
+  text-align: center;
+  align-content: stretch;
+}
+
+a {
+  color: #717171;
+  font-family: Ubuntu-Bold;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 3.2px;
+  display: block;
+  margin: 39px 0;
+}
+
+a:nth-child(2n - 1) {
+  text-decoration: none;
+}
+
+img {
+  width: 497.5px;
+  height: 308px;
+  margin: 0 30px;
+}
+
+.article {
+  margin: 0 30px;
+}
+
+.art-title {
+  font-family: Lora-Regular;
+  font-size: 24px;
+  color: #143774;
+}
+
+p {
+  font-family: Ubuntu-Light;
+  font-size: 18px;
+  color: #707070;
+  line-height: 28px;
+}
+
+.sub-heading {
+  font-family: Lora-Regular;
+  font-size: 21px;
+  line-height: 28px;
+  color: #1792D2;
+}
+
+.article span {
+  font-family: Ubuntu-Bold;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.main-heading {
+  margin-left: 40px;
+}
+
+.recent-posts {
+  width: 509px;
+  height: 604px;
+  border: 20px solid #EBEBEB;
+  margin: auto;
+}
+
+.recent-posts img {
+  width: 420px;
+  height: 87px;
+  object-fit: none;
+  padding: 10px;
+
+}
+
+.recent-posts h3 {
+  font-family: Lora-Regular;
+  color: #143774;
+  font-weight: bold;
+
+}
+
+hr {
+  width: 420px;
+  align-self: center;
+}
+
+.recent-posts h4 {
+  font-family: Lora-Regular;
+  font-size: 18px;
+  color: #143774;
+  margin-left: 40px;
+}
+
+.footer {
+  width: 557px;
+  height: 208.56px;
+  background-color: #143774;
+  display: block;
+  margin: auto;
+}
+
+.footer .capture {
+  font-family: Ubuntu-Bold;
+  font-size: 18px;
+  color: #FFFFFF;
+  opacity: 54%;
+  padding-bottom: 0;
+  margin: auto;;
+}
+
+.footer .copyright {
+  font-family: Ubuntu-Light;
+  color: #FFFFFF;
+  opacity: 54%;
+  margin: auto;
+  }
+
+  .captures {
+    width: 100%;
+    height: 52px;
+    padding-top: 78px;
+    text-align: center;
+  }
